@@ -10,8 +10,6 @@
     "source.organizeImports": "never"
   },
 
-  "eslint.runtime": "node",
-  // 格式类规则不显示错误
   "eslint.rules.customizations": [
     { "rule": "style/*", "severity": "off" },
     { "rule": "format/*", "severity": "off" },
@@ -25,6 +23,16 @@
     { "rule": "*semi", "severity": "off" }
   ],
 
-  // 验证的文件类型
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "yaml", "toml"]
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ]
 }

@@ -2,7 +2,11 @@ import antfu from '@antfu/eslint-config'
 
 export default antfu({
   ignores: ['*.md'],
-  formatters: true,
+  formatters: {
+    css: true,
+    html: true,
+    markdown: true,
+  },
   markdown: {
     overrides: {},
   },
