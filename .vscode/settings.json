@@ -1,10 +1,10 @@
 {
   "prettier.enable": false,
-  "prettier.printWidth": 200,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-
   "editor.formatOnSave": false,
+  // "prettier.printWidth": 200,
+  // "prettier.semi": false,
+  // "prettier.singleQuote": true,
+
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
     "source.organizeImports": "never"
