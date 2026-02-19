@@ -11,7 +11,8 @@
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev",
-    "lint": "eslint . --fix"，
+    "lint": "eslint . --fix",
+    "prepare": "simple-git-hooks"
   },
   "dependencies": {
     "umi": "^4.6.28"
