@@ -6,16 +6,16 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "umi dev",
-    "build": "umi build",
-    "postinstall": "umi setup",
-    "setup": "umi setup",
+    "dev": "max dev",
+    "build": "max build",
+    "postinstall": "max setup",
+    "setup": "max setup",
     "start": "npm run dev",
     "lint": "eslint . --fix",
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "umi": "^4.6.28"
+    "@umijs/max": "^4.6.28"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.4.3",
